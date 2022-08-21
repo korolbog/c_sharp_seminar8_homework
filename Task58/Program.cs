@@ -75,7 +75,7 @@ void Fill1DArray()
 {
 for (int k = 0; k < array1D.Length; k++)
 {
-    array1D[k] = k + 11;
+    array1D[k] = k + 1;
 }
 }
 void Print1DArray()
@@ -101,4 +101,3 @@ void Print2DArray()
     }
     Console.WriteLine();
 }
-
